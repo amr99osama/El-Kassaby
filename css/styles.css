@@ -1,0 +1,515 @@
+
+
+/* Social-icons */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+
+
+.preloader {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 9; }
+  .preloader .inner-preloader 
+{
+    z-index: 99; 
+}
+
+
+
+.social-icon a
+{
+    text-decoration: none;
+}
+.social-icon img
+{
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+}
+
+
+/* Home Section */
+
+
+
+.home 
+{
+    position: relative;
+}
+
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    z-index: 4;
+    left: 25%;
+    font-size: 1.6rem;
+    background-color: #a4bfda;
+}
+
+
+.navbar-brand
+{
+    direction: ltr;
+}
+
+
+.navbar-toggler-icon
+{
+    background-image: url(../Assets/list.png);
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.nav-item
+{
+    padding: 0 1rem;
+}
+
+.nav-link
+{
+     color: #213c57; 
+    text-decoration: none;
+    font-weight: 700;
+    transition:  all 0.2s ease;
+    
+}
+
+.dropdown-toggle::after
+{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    color: #f3c819;
+}
+
+.nav-link:hover 
+{
+    color: #f3c819
+}
+
+.navbar-toggler-icon span
+{
+    color: black !important;
+}
+
+.home__wrapper
+{
+    position: relative;
+}
+.home__wrapper img
+{
+    min-width: 100%;
+    height: 90vh;
+}
+
+.home__overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;    
+}
+
+
+.owl-one 
+{
+    position: relative;
+}
+
+.owl-one .owl-nav
+{
+    position: absolute;
+    top: 40%;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 20rem;
+}
+
+.owl-two .owl-nav
+{
+ position: absolute;
+    top: 40%;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+        padding: 0px -5rem;
+
+}
+
+.owl-nav span
+{
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+
+
+/* About-us Section */
+.overlay-yellow-1
+{
+    height: 50px;
+    width: 100%;
+    background-color: #f3c819;
+}
+
+.overlay-yellow-2
+{
+    height: 20px;
+     width: 100%;
+    background-color: #f3c819;
+}
+
+.header-2
+{
+    font-size: 4rem;
+    color: #f3c819;
+    font-weight: bold;
+}
+
+.text
+{
+    font-size: 2rem;
+    color: #213c57;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.purpose__wrapper
+{
+    background-image: url(../Assets/Purpose_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+    position: relative;
+}
+
+
+.purpose__overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(167,171,138,0.8);
+    height: 100%;
+    width: 100%;    
+}
+
+.purpose__overlay .text
+{
+    color: white;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+
+.header-3
+{
+    font-size: 3.5rem;
+    color: #203c52;
+    font-weight: bold;
+}
+.owl-two
+{
+    padding-top: 2rem;
+}
+
+.btn-more
+{
+        
+    padding: 1rem 2rem;
+    background-color: #f3c819;
+    font-size: 2rem;
+    border: none;
+    color: #213c57;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+
+/* Acheive */
+.services_h
+{
+    color: #f3c819;
+   background-color: #213c57;
+    padding: 1rem 2rem;
+    margin: auto;
+    border: 1px solid #213c57;
+    width: fit-content;
+
+}
+
+
+.left-frame
+{
+    
+    border-right: 2px solid #213c57;
+    border-top: 2px solid;
+    display: block;
+    width: 100%;
+    border-width: 0.5rem; 
+    height: 70px;
+    width: 50px;
+}
+
+.right-frame
+{
+    
+    border-left: 2px solid #213c57;
+    border-top: 2px solid;
+    display: block;
+    width: 100%;
+    border-width: 0.5rem; 
+    height: 70px;
+    width: 50px;
+}
+
+
+.Projects
+{
+     background-image: url(../Assets/james-sullivan-ESZRBtkQ_f8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+    position: relative;
+}
+.Projects__overlay
+{
+    background-color: rgba(32, 60, 82, 0.8);
+      position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;    
+}
+
+.Projects__overlay img 
+{
+    min-height:250px !important;
+}
+
+
+.text-projects
+{
+    font-weight: 500;
+    color: white;
+    padding: 1rem
+}
+
+.projects-links:link,
+.projects-links:active
+
+{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 2.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.projects-links:hover,
+.projects-links:visited
+{
+    color: #f3c819 ;
+}
+
+.contacts
+{
+  background-color: #213c57;
+}
+
+
+
+.form-control
+{
+    background-color:  #e8e8e8;
+    border: none;
+    border-radius: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+    
+}
+
+input[type="text"]
+{
+    border-left: 1px solid darkgrey;
+}
+
+.form-sub
+{
+    background-color: #faca36;
+}
+
+.header-4
+{
+    color: white;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    font-size: 2.5rem;
+    padding: 1rem 2rem
+}
+
+.fa-map-marker-alt
+{
+    color: #e84c3d
+}
+
+.English_Version
+{
+    position: absolute;
+    left: 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #213c57;
+    transition: all 0.1s ease-in;
+}
+
+.English_Version:hover
+{
+    color:#faca36;
+}
+
+
+
+.footer 
+{
+    font-size: 1.5rem;
+}
+
+.home-link
+{
+    color: black;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+}
+
+.home-link:hover 
+{
+    color: #faca36;
+        text-decoration: none;
+
+}
+
+
+
+
+
+
+/* Contacts Section */
+
+
+
+.contact_container i
+{
+    color: #faca36;
+    font-size: 2rem;
+    border: 1px solid   #faca36;
+    border-radius: 50%;
+    line-height: 2;
+    padding: 0px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.contact_container i:hover
+{
+    color:   #213c57;
+     border: 1px solid #213c57;
+    
+}
+
+
+.contact-text
+{
+    font-size: 2rem;
+    color: #213c57;
+}
+
+
+
+@media (min-width:768px ) and (max-width: 1024px)
+{
+     html 
+    {
+        font-size: 50%;
+    }
+    .navbar
+    {
+      width: 100% !important;
+    left: 0 !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    html 
+    {
+        font-size: 40%;
+    }
+    .purpose__wrapper{
+          height: 80vh;
+    }
+    .owl-one .owl-nav{
+        padding: 0;
+    }
+    
+    
+    .navbar
+    {
+      width: 100% !important;
+    left: unset !important;
+    }
+    
+    .right-frame 
+    {
+            transform: rotate(180deg);
+
+    }
+    
+    .text-projects
+    {
+        padding: 0;
+    }
+
+
+}
+
